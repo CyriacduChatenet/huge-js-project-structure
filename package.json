@@ -1,0 +1,21 @@
+{
+  "name": "huge-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build --parallel",
+    "format": "turbo run format --parallel",
+    "lint": "turbo run lint --parallel"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}

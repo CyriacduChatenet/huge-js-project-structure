@@ -1,0 +1,22 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "pipeline": {
+      "format": {
+        "outputs": []
+      },
+      "lint": {
+        "outputs": []
+      },
+      "test": {
+        "dependsOn": ["^build"],
+        "outputs": []
+      },
+      "dev": {
+        "cache": false,
+        "outputs": []
+      },
+      "build": {
+        "outputs": ["dist/**", "dist/**", "storybook-static/**"]
+      }
+    }
+  }

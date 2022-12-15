@@ -9,6 +9,9 @@
 [![webpack](https://img.shields.io/badge/Webpack-8ED5FA?style=for-the-badge&logo=webpack&logoColor=FFFFFF)](https://www.javascript.com/)
 [![Turbo](https://img.shields.io/badge/Turbo-20232A?style=for-the-badge&logo=turbo&logoColor=61DAFB)](https://www.javascript.com/)
 
+- [Frontend](https://huge-js-project-structure-frontend.vercel.app/)
+- [API](https://huge-js-project-structure-api.vercel.app/)
+
 install all packages : 
 ```bash
 npm install
